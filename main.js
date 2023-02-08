@@ -19,7 +19,7 @@ if (i == 3){
     let randomChoice = Math.floor(Math.random()*compGuess.length);
     console.log (compGuess[randomChoice]);
     
-    if ((userChoice) == (randomChoice)) {
+    if (userChoice == compGuess[randomChoice]) {
             alert("IT'S A DRAW!");
 
 
