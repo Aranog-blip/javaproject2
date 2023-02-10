@@ -4,7 +4,7 @@ let n = 0;
 console.log("USER:  " + i);
 console.log("COMPUTER:  " + k);
 
-    
+
 while (i<=3 && k<=3){        
     if (i == 3){
         alert("USER WON! NEW ROUND?");
@@ -20,9 +20,10 @@ while (i<=3 && k<=3){
         n++;
         alert("ROUND  " + n);
 
-    let userChoice = prompt("Choose one: ROCK, PAPER OR SCISSORS!!!");{
+    let userChoice1 = prompt("Choose one: ROCK, PAPER OR SCISSORS!!!");
+    let userChoice = userChoice1.toUpperCase();
     console.log(userChoice);
-        }
+        
     let compGuess = ["ROCK", "PAPER", "SCISSORS"];
     let randomChoice = Math.floor(Math.random()*compGuess.length);
     console.log (compGuess[randomChoice]);
